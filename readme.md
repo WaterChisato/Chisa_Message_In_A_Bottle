@@ -1,15 +1,15 @@
 
 
-`markdown
 
-🌊 漂流瓶 (Drift Bottle) 
+
+# 🌊 漂流瓶 (Drift Bottle) 
 
 一个基于 PHP + MySQL 的漂流瓶网站，同时支持  
 用户可以在网页端 中扔瓶子、捡瓶子，管理员可以在后台管理瓶子和账号。  
 
 ---
 
-✨ 功能特性
+## ✨ 功能特性
 
 - 前台：
   - 扔瓶子（普通用户每天最多 3 次，管理员无限制）
@@ -21,9 +21,9 @@
 
 ---
 
-📂 项目结构
+### 📂 项目结构
 
-`
+~~~ 
 drift-bottle/
 ├── config.php              # 数据库连接 + 初始化
 ├── index.php               # 前台首页
@@ -34,7 +34,7 @@ drift-bottle/
 ├── change_credentials.php  # 修改管理员账号
 ├── manage_bottles.php      # 管理漂流瓶
 ├── logout.php              # 退出登录
-`
+~~~
 
 ---
 
@@ -47,14 +47,15 @@ drift-bottle/
    `
 
 2. 配置数据库：
-   - 创建数据库 serula3hqa8nv
+ ~~~
+   - 创建数据库 
    - 修改 config.php 中的数据库账号和密码
    - 首次运行时会自动建表并插入默认管理员账号：
      - 用户名：admin
      - 密码：114514
 
-3. 部署到 Web 服务器 (Nginx/Apache)，确保支持 PHP 和 MySQL。
-
+4. 部署到 Web 服务器 (Nginx/Apache)，确保支持 PHP 和 MySQL。
+~~~
 ---
 
 🖥️ 使用方法
